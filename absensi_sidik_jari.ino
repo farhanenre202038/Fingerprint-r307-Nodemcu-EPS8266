@@ -16,11 +16,11 @@
 SoftwareSerial mySerial(Finger_Rx, Finger_Tx);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
 
-const char *ssid = "Farhan_Abadi";
-const char *password = "farhanabadi2020";
+const char *ssid = "SSID";
+const char *password = "PASS_SSID";
 
 String postData;
-String link = "http://192.168.1.11/biometricattendance/getdata.php";
+String link = "http://LINK";
 int FingerID = 0;
 uint8_t id;
 
